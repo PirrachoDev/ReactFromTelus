@@ -1611,7 +1611,7 @@ var ENGLISH_WORDS = [
 ];
 
 function randomWord() {
-  return ENGLISH_WORDS[Math.floor(Math.random() * ENGLISH_WORDS.length)];
+  return ENGLISH_WORDS[Math.floor(Math.random() * 75)];
 }
 
 export { randomWord };
